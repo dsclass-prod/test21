@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "analysis.R"
         }
     ],
     "nodes": [
@@ -40,6 +50,6 @@
             "name": "analysis.R"
         }
     ],
-    "updated_at": "2018-11-09 16:54:06",
+    "updated_at": "2018-11-09 16:54:24",
     "url": "https://github.com/dsclass-prod/test21"
 }
